@@ -62,7 +62,7 @@ public static int calculadorDias(int añoActual, int mesActual, int diaActual){ 
         
         Calendar calendario = Calendar.getInstance();
         int añoA = calendario.get(Calendar.YEAR);
-        int mesA = calendario.get(Calendar.MONTH);
+        int mesA = calendario.get(Calendar.MONTH)+1;
         int diaA = calendario.get(Calendar.DAY_OF_MONTH);
         int cantDias = calculadorDias(añoA, mesA, diaA);
         int cantDiasLimite;
